@@ -11,7 +11,9 @@ contract Lock {
         num = _num;
     }
 
-    
+    function valuegetter() public returns(uint){
+        return _num;
+    }
 
     }
 
