@@ -5,6 +5,13 @@ pragma solidity ^0.8.9;
 // import "hardhat/console.sol";
 
 contract Lock {
-            
+    uint private num;
+
+    function  valuesetter(uint _num)  public {
+        num = _num;
+    }
+
+    
+
     }
 
