@@ -15,7 +15,11 @@ contract Num {
         return num;
     }
 
-  
+    
+  function increment() public{
+        
+    }
 
     }
+
 
