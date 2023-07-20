@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-contract Lock {
+contract Num {
     uint private num;
 
     function  valuesetter(uint _num)  public {
@@ -12,7 +12,7 @@ contract Lock {
     }
 
     function valuegetter() public returns(uint){
-        return _num;
+        return num;
     }
 
     }
