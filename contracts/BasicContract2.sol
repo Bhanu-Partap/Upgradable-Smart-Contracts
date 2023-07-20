@@ -4,7 +4,7 @@ pragma solidity ^0.8.10;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-contract Num {
+contract Num2 {
     uint private num;
 
     function  setvalue(uint _num)  public {
