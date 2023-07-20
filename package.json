@@ -3,5 +3,8 @@
   "devDependencies": {
     "@openzeppelin/hardhat-upgrades": "^2.0.1",
     "ethers": "^6.6.4"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
   }
 }

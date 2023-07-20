@@ -7,7 +7,7 @@ pragma solidity ^0.8.10;
 contract Num {
     uint private num;
 
-    function  valuesetter(uint _num)  public {
+    function  setvalue(uint _num)  public {
         num = _num;
     }
 
